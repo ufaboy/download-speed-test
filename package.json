@@ -1,0 +1,12 @@
+{
+  "name": "download-speed-test",
+  "version": "1.0.0",
+  "description": "Download speed test: 10 sequential requests, result in KB/s",
+  "main": "speedtest.js",
+  "bin": { "speedtest": "speedtest.js" },
+  "scripts": {
+    "start": "node speedtest.js"
+  },
+  "engines": { "node": ">=18.3" },
+  "license": "MIT"
+}
